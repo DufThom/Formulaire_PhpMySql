@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Atelier 4 -Formulaire d'Ajout</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div class=" container Marge">
+<form id="Ajout1" action="Script_Ajout.php" method="get">
+    <div class ="MyTitre"><h2>Formulaire</h2></div>
+    <div> <label for="Titre"> Titre :</label><br />
+        <input required class="form-control Mytext input" type="text" id="Titre" name="Titre" placeholder="Entrez le titre" />
+    </div><br>
+    <div> <label for="Description"> Description :</label><br />
+        <input required class="form-control Mytext input" type="text" id="Description" name="Description" placeholder="Description du site" />
+    </div><br>
+    <div> <label for="URL"> URL :</label><br />
+        <input required class="form-control Mytext input" type="text" id="URL" name="URL" placeholder="Entre l'Url du site" />
+    </div><br>
+    <div> <label for="Theme"> Thème :</label><br />
+        <select class="form-control Mytext input" name="Theme" id="Theme">
+            <option value="Actu">Actualité</option>
+            <option value="Musiq">Musique</option>
+            <option value="Sport">Sport</option>
+            <option value="Sciences">Sciences</option>
+            <option value="Cinéma">Cinéma</option>
+            <option value="Divers">Divers</option>
+        </select>
+    </div><br>
+    <div> <label for="Webmaster"> Webmaster :</label><br />
+        <input required class="form-control Mytext input" type="text" id="Webmaster" name="Webmaster" placeholder="Entrez une adresse mail" />
+    </div><br>
+    <div class="input-group Mytext input">
+      <span class="input-group-addon input Mycolor1">
+        <input type="checkbox" id="Visible" name="Visible"  class="Mycolor1 " value="OUI"/></span>
+        <input type="text" class="form-control Mytext input" value="Visible" />
+    </div><br />
+
+    <div><input class="btnEnvoi btn btn-success" type="submit" name="Envoi" value="Valider"></div><br />
+    <a href="Liste.php">Retour à la liste</a>
+
+
+</form>
+</div>
+</body>
+</html>

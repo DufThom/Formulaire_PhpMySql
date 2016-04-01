@@ -1,0 +1,37 @@
+body{
+    background-color: #7f7f7f;
+}
+a{
+    color: #b9f0f0;
+    text-decoration: underline;
+}
+.Mytext{
+    width: 400px;
+    background-color: #b9f0f0;
+}
+.Mycolor1{
+    background-color: #b9f0f0;
+}
+.Marge{
+    margin-left: 100px;
+}
+
+.MyTitre{
+    margin-left: 150px;
+}
+.MyTitre2{
+    margin-left: 70px;
+}
+H2, label {
+    font-weight: bold;
+}
+
+.EnGras{
+    font-weight: bold;
+}
+.btn{
+    width:120px;
+}
+.input{
+    border-radius: 20px;
+}
