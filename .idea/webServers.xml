@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a25a5d76-1797-4062-b732-05df4d851de6" name="dl" url="http://dl.bienvu.net/thomasd/">
+        <fileTransfer host="dl.bienvu.net" port="22" accessType="SFTP" password="dfc8dfc3dfcddfdedfc5dfc7df9bdf93" username="thomasd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
